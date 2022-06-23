@@ -8,14 +8,21 @@ const getPadding = ({ scrollState, headerHeight }: StyledProps) => {
     const scrollPositionRem = getRemFromPx(scrollPosition);
     const headerHeightRem = getRemFromPx(headerHeight);
 
+    const isWithinThreshold = 6.6 - scrollPositionRem > 2.1;
+
     // As the header/content area is scrolled, the top padding of the header component decreases from 6.6rem to 2.1rem.
     // When the top padding of the header component hits 2.1rem, the header becomes fixed. In order to keep the content
     // component positioned correctly, we add top padding to the content component equal to height of the (now fixed) header.
     return css`
-        padding: ${({ theme }) => `0 ${theme.spacing.S4}`};
+        padding: ${({ theme }) => `${theme.spacing.S2} ${theme.spacing.M2} ${theme.spacing.M1}`};
 
-        @media (max-width: 768px) {
-            padding-top: ${6.6 - scrollPositionRem > 2.1 ? '0' : `${headerHeightRem}rem `};
+        @media (max-width: 767px) {
+            padding: ${({ theme }) =>
+                `${isWithinThreshold ? `${theme.spacing.S2}` : `${4.5 + headerHeightRem}rem`} ${theme.spacing.S4} ${theme.spacing.M1}`};
+        }
+
+        @media (min-width: 768px) and (max-height: 700px) {
+            padding-bottom: ${({ theme }) => theme.spacing.S1};
         }
     `;
 };
@@ -25,6 +32,8 @@ export const Content = styled('div')<StyledProps>`
     box-sizing: border-box;
     overflow: ${({ overflowVisible }) => overflowVisible && `visible`};
     ${getPadding}
+
+    /* overflow: ${({ overflowVisible }) => overflowVisible && `visible`}; */
 
     @media (min-width: 768px) {
         overflow: ${({ overflowVisible }) => (overflowVisible ? `visible` : `auto`)};

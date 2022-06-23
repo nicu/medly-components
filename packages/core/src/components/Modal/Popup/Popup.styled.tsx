@@ -57,7 +57,6 @@ export const Popup = styled('div')<ModalPopupProps>`
     }
 
     @media (min-width: 768px) and (max-width: 1439px) {
-        padding: ${({ theme }) => `${theme.spacing.L1} ${theme.spacing.M2}`};
         border-radius: ${({ theme }) => theme.modal.borderRadius};
         max-width: 72%;
         min-width: ${({ minWidth }) => minWidth || '42%'};
@@ -65,7 +64,6 @@ export const Popup = styled('div')<ModalPopupProps>`
     }
 
     @media (min-width: 1440px) {
-        padding: ${({ theme }) => `${theme.spacing.L1} ${theme.spacing.M2}`};
         border-radius: ${({ theme }) => theme.modal.borderRadius};
         min-width: ${({ minWidth }) => minWidth || `60.5rem`};
         max-width: 103.6rem;
@@ -73,6 +71,7 @@ export const Popup = styled('div')<ModalPopupProps>`
     }
 
     @media (min-width: 768px) {
+        /* padding: ${({ theme }) => `${theme.spacing.M2}`}; */
         animation: ${({ open }) => (open ? desktopModalSlideIn : desktopModalSlideOut)} 0.2s cubic-bezier(0, 0, 0.33, 1);
     }
 `;

@@ -7,13 +7,23 @@ const getPosition = ({ scrollState }: Props) => {
     const { scrollPosition } = scrollState;
     const scrollPositionRem = getRemFromPx(scrollPosition);
 
+    const isWithinThreshold = 6.6 - scrollPositionRem > 2.1;
+
     return css`
-        position: ${6.6 - scrollPositionRem > 2.1 ? 'relative' : 'fixed'};
-        padding: ${6.6 - scrollPositionRem > 2.1 ? '6.6rem' : '2.1rem'} 1.6rem 1.9rem 1.6rem;
+        position: ${isWithinThreshold ? 'relative' : 'fixed'};
+        padding: ${({ theme }) => `${isWithinThreshold ? theme.spacing.L2 : theme.spacing.S4} ${theme.spacing.S4} ${theme.spacing.S4}`};
 
         @media (min-width: 768px) {
             position: relative;
-            padding: ${({ theme }) => `0 ${theme.spacing.S4} ${theme.spacing.S4}`};
+            padding: ${({ theme }) => `${theme.spacing.M2} ${theme.spacing.M2} ${theme.spacing.S4}`};
+        }
+
+        @media (min-width: 768px) and (max-height: 700px) {
+            transition: padding 100ms linear;
+            padding: ${({ theme }) =>
+                `${scrollState.scrolledToTop ? theme.spacing.M2 : theme.spacing.S4} ${theme.spacing.M2} ${theme.spacing.S4} ${
+                    theme.spacing.M2
+                }`};
         }
     `;
 };
