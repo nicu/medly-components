@@ -1,0 +1,1 @@
+import r from"../colors/index.js";var o={backgroundColor:r.white,separatorColor:r.grey[500],shadowColor:r.grey[400],borderRadius:"0.8rem",padding:{S:"2.4rem",M:"2.4rem",L:"2.4rem",XL:"2.4rem"}};export default o;

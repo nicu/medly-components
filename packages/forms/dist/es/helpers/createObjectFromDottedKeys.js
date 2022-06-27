@@ -1,0 +1,1 @@
+var e=function(e){var r={};return Object.keys(e).forEach((function(c){if(c.includes(".")){var n=c.split(".");n.slice(0,-1).reduce((function(e,r){return e[r]||(e[r]={}),e[r]}),r)[n.slice(-1)[0]]=e[c]}else r[c]=e[c]})),r};export{e as createObjectFromDottedKeys};

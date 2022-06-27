@@ -1,0 +1,1 @@
+import t from"styled-components";var e=t("div").withConfig({componentId:"lhr232-0"})(["display:flex;position:relative;align-items:",";background-color:transparent;flex:1;height:100%;"],(function(t){return t.multiline?"flex-start":"center"}));export{e as InputWrapper};

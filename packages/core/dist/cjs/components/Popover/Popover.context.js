@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("react"),r=((e=t)&&"object"==typeof e&&"default"in e&&e.default,t.createContext([!1,function(){return null}]));exports.PopoverContext=r;

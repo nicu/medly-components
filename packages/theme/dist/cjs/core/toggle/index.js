@@ -1,0 +1,1 @@
+"use strict";var e=require("../colors/index.js"),o={sizes:{XS:"20px",S:"24px",M:"28px",L:"32px",XL:"40px"},defaultSize:"S",outlineColor:e.professionalNavy,checkedBgColor:e.professionalNavy,bgColor:e.grey[200],disabledBgColor:e.grey[300]};module.exports=o;

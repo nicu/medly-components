@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");exports.useCombinedRefs=function(){for(var r=arguments.length,t=new Array(r),n=0;n<r;n++)t[n]=arguments[n];var u=e.useRef(null);return e.useEffect((function(){t.forEach((function(e){e&&("function"==typeof e?e(u.current):e.current=u.current)}))}),[t]),u};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");exports.useUpdateEffect=function(t){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[],u=e.useRef(!0);e.useEffect((function(){u.current?u.current=!1:t()}),r)};

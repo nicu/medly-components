@@ -1,0 +1,1 @@
+var r=function(r,e){var t;return function(){for(var n=arguments.length,o=new Array(n),a=0;a<n;a++)o[a]=arguments[a];var i=function(){t&&clearTimeout(t),r.apply(void 0,o)};t&&clearTimeout(t),t=setTimeout(i,e)}};export{r as debounce};

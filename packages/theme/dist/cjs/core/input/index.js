@@ -1,0 +1,1 @@
+"use strict";var o=require("../colors/index.js"),r={color:o.grey[800],bgColor:o.white,borderColor:o.grey[400],descriptionColor:o.professionalNavy,disabledBgcolor:o.grey[300],focusedBorderColor:o.professionalNavy,placeHolderColor:o.grey[500],prefixAndSuffixBgColor:o.grey[100]};module.exports=r;

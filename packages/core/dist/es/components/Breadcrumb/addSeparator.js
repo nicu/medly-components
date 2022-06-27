@@ -1,0 +1,1 @@
+import{jsx as e}from"react/jsx-runtime";import{isValidStringOrNumber as r}from"@medly-components/utils";import{Text as t}from"../Text/Text.js";import n from"@babel/runtime/helpers/toConsumableArray";export default function(o,i){return o.reduce((function(m,u,a){return[].concat(n(m),[u],n(a!==o.length-1?[r(i)?e(t,Object.assign({"aria-hidden":"true"},{children:i}),a):i]:[]))}),[])}

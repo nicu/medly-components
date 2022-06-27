@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),o=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)("div").withConfig({componentId:"w3sqmf-0"})(["display:flex;flex-direction:column;"]);exports.Section=o;

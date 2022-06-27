@@ -1,0 +1,1 @@
+import n from"styled-components";import{InjectClassName as e}from"@medly-components/utils";var o=n(e).withConfig({componentId:"dynlvq-0"})(["pointer-events:none;margin-left:",";"],(function(n){return"S"===n.size?"1.2rem":"1.6rem"}));export{o as Suffix};

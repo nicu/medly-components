@@ -1,0 +1,1 @@
+import t from"styled-components";var e=t("div").withConfig({componentId:"aqez41-0"})(["overflow:hidden;transition:all 200ms ",";max-height:",";opacity:",";border-bottom-left-radius:0.8rem;border-bottom-right-radius:0.8rem;"],(function(t){return t.isActive?"ease-in":"ease-out"}),(function(t){return!t.isActive&&0}),(function(t){return t.isActive?1:0}));export{e as Wrapper};

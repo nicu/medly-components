@@ -1,0 +1,1 @@
+import{useRef as r,useEffect as n}from"react";var t=function(){for(var t=arguments.length,o=new Array(t),c=0;c<t;c++)o[c]=arguments[c];var e=r(null);return n((function(){o.forEach((function(r){r&&("function"==typeof r?r(e.current):r.current=e.current)}))}),[o]),e};export{t as useCombinedRefs};

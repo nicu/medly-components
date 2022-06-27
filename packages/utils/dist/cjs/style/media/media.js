@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("styled-components");exports.media=function(r){return function(t){for(var n=arguments.length,o=new Array(n>1?n-1:0),s=1;s<n;s++)o[s-1]=arguments[s];return e.css(["","{","}"],r,e.css.apply(void 0,[t].concat(o)))}};

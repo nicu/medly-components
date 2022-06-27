@@ -1,0 +1,1 @@
+import e from"styled-components";var n=e("span").withConfig({componentId:"avlt8d-0"})(["font-size:1.2rem;line-height:1.6rem;margin:"," "," 0;white-space:initial;user-select:none;"],(function(e){return"fusion"===e.variant?"0.4rem":"0.5rem"}),(function(e){return"S"===e.size?"1.2rem":"1.6rem"}));export{n as HelperText};

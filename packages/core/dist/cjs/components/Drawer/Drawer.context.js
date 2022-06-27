@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("react"),o=((e=t)&&"object"==typeof e&&"default"in e&&e.default,{id:"default-id",scrollState:{scrolledToTop:!0,scrolledToBottom:!1,scrollPosition:0},dispatch:function(){},onClose:function(){}}),r=t.createContext(o);exports.DrawerContext=r,exports.defaultValues=o;

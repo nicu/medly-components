@@ -1,0 +1,1 @@
+"use strict";var e=require("../colors/index.js"),s=require("./faces.js"),r={variants:require("./variants.js"),weights:require("./weights.js"),faces:s,defaults:{color:e.black,variant:"body2",fontFamily:"Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif"}};module.exports=r;

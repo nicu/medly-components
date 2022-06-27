@@ -1,0 +1,1 @@
+"use strict";var e,r=(e=require("@babel/runtime/helpers/toConsumableArray"))&&"object"==typeof e&&"default"in e?e.default:e;module.exports=function e(u){return u.reduce((function(u,t){return[].concat(r(u),r(Array.isArray(t.value)?e(t.value):[t.value]))}),[])};

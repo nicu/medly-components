@@ -1,0 +1,1 @@
+import o from"../colors/index.js";var e={sizes:{XS:"20px",S:"24px",M:"28px",L:"32px",XL:"40px"},defaultSize:"S",outlineColor:o.professionalNavy,checkedBgColor:o.professionalNavy,bgColor:o.grey[200],disabledBgColor:o.grey[300]};export default e;

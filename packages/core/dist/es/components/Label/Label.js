@@ -1,0 +1,1 @@
+import{jsx as e}from"react/jsx-runtime";import{memo as r,forwardRef as i}from"react";import{LabelStyled as t}from"./Label.styled.js";var o=r(i((function(r,i){return e(t,Object.assign({ref:i,labelPosition:r.labelPosition},r,{children:r.children}),void 0)})));o.defaultProps={labelPosition:"left",required:!1},o.displayName="Label";var l=Object.assign(o,{Style:t});export{l as Label};

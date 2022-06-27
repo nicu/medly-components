@@ -1,0 +1,1 @@
+import{createContext as o}from"react";var t={id:"default-id",scrollState:{scrolledToTop:!0,scrolledToBottom:!1,scrollPosition:0},dispatch:function(){},onClose:function(){}},l=o(t);export{l as DrawerContext,t as defaultValues};

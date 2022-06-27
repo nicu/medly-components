@@ -1,0 +1,1 @@
+import{css as r}from"styled-components";var n=function(n){return function(o){for(var t=arguments.length,e=new Array(t>1?t-1:0),a=1;a<t;a++)e[a-1]=arguments[a];return r(["","{","}"],n,r.apply(void 0,[o].concat(e)))}};export{n as media};

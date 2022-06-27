@@ -1,0 +1,1 @@
+"use strict";var e=require("../colors/index.js"),r={textColor:e.grey[900],boxShadow:e.grey[400],bgColor:{success:e.green[100],info:e.blue[100],warning:e.yellow[200],error:e.red[100]},fillColor:{success:e.green[500],info:e.blue[500],warning:e.yellow[500],error:e.red[500]}};module.exports=r;

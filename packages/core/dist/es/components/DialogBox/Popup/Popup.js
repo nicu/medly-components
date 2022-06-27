@@ -1,0 +1,1 @@
+import{jsx as r}from"react/jsx-runtime";import{memo as o,forwardRef as t,useCallback as p}from"react";import{Popup as a}from"./Popup.styled.js";var e=o(t((function(o,t){var e=p((function(r){return r.stopPropagation()}),[]);return r(a,Object.assign({ref:t,onClick:e},o),void 0)})));e.displayName="Popup";var i=Object.assign(e,{Style:a});export{i as Popup};

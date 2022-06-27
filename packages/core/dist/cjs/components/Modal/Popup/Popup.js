@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,r=require("react/jsx-runtime"),t=require("react"),u=((e=t)&&"object"==typeof e&&"default"in e&&e.default,require("./Popup.styled.js")),o=t.memo(t.forwardRef((function(e,t){return r.jsx(u.Popup,Object.assign({ref:t},e),void 0)})));o.displayName="Popup";var p=Object.assign(o,{Style:u.Popup});exports.Popup=p;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.createObjectFromDottedKeys=function(e){var t={};return Object.keys(e).forEach((function(r){if(r.includes(".")){var c=r.split(".");c.slice(0,-1).reduce((function(e,t){return e[t]||(e[t]={}),e[t]}),t)[c.slice(-1)[0]]=e[r]}else t[r]=e[r]})),t};

@@ -1,0 +1,1 @@
+import{createContext as o}from"react";var e={headerHeight:120,setHeaderHeight:function(){},scrollState:{scrolledToTop:!0,scrolledToBottom:!1,scrollPosition:120},dispatch:function(){},id:"default-id",isSmallScreen:!1,overflowVisible:!1},t=o(e);export{t as ModalContext,e as defaultValues};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("styled-components");exports.centerAligned=function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"inline-flex";return e.css(["display:",";justify-content:center;align-items:center;"],t)};

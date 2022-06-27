@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("styled-components");exports.fullHeight=function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"0px";return e.css(["height:calc(100% - ",");"],t)};

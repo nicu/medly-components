@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.debounce=function(e,r){var t;return function(){for(var o=arguments.length,n=new Array(o),u=0;u<o;u++)n[u]=arguments[u];var i=function(){t&&clearTimeout(t),e.apply(void 0,n)};t&&clearTimeout(t),t=setTimeout(i,r)}};

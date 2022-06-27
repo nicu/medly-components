@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),o=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)("table").withConfig({componentId:"mqu24l-0"})(["width:100%;"]);exports.Table=o;

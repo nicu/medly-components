@@ -1,0 +1,1 @@
+import r from"../colors/index.js";var e={textColor:r.grey[900],boxShadow:r.grey[400],bgColor:{success:r.green[100],info:r.blue[100],warning:r.yellow[200],error:r.red[100]},fillColor:{success:r.green[500],info:r.blue[500],warning:r.yellow[500],error:r.red[500]}};export default e;

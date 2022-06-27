@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.defaultKeyBindings={up:"ArrowUp",down:"ArrowDown",expandRow:"ArrowRight",collapseRow:"ArrowLeft",rowClick:"Enter"},exports.loadingBodyData=[{id:"loading1"},{id:"loading2"},{id:"loading3"},{id:"loading4"},{id:"loading5"}],exports.rowActionsColumnConfig={title:"",field:"row-actions",frozen:!0};

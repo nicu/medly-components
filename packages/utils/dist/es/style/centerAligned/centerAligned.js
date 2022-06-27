@@ -1,0 +1,1 @@
+import{css as e}from"styled-components";var n=function(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"inline-flex";return e(["display:",";justify-content:center;align-items:center;"],n)};export{n as centerAligned};

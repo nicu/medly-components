@@ -1,0 +1,1 @@
+export declare const CloseIcon: import("styled-components").StyledComponent<import("react").FC<import("@medly-components/icons").SvgIconProps> & import("@medly-components/utils").WithStyle, any, {}, never>;

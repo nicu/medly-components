@@ -1,0 +1,1 @@
+import{jsx as r,Fragment as e}from"react/jsx-runtime";import{Children as t,cloneElement as a}from"react";export default function(n){var c=n.className,i=n.children;return r(e,{children:t.map(i,(function(r){return a(r,{className:c})}))},void 0)}

@@ -1,0 +1,1 @@
+import o from"styled-components";var t=o.td.withConfig({componentId:"sc-1hrcpmv-0"})(["position:absolute;right:0;display:",";height:100%;padding:0;"],(function(o){return o.show?"block":"none"}));export{t as RowHoverActionsWrapper};

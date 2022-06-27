@@ -1,0 +1,1 @@
+import o from"styled-components";import{SvgIcon as t}from"@medly-components/icons";import{BreadcrumbItemStyled as e}from"../Item/Item.styled.js";var m=o(e).withConfig({componentId:"sc-1jajlp8-0"})(["& > ","{*{fill:",";}}"],t,(function(o){return o.theme.breadcrumb.textColor.default}));export{m as BreadcrumbBackStyled};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),i=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)("div").withConfig({componentId:"sc-1ep6kh8-0"})(["position:relative;display:inline-flex;"]);exports.Wrapper=i;

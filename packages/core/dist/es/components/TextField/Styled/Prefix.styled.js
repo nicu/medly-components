@@ -1,0 +1,1 @@
+import n from"styled-components";import{InjectClassName as o}from"@medly-components/utils";var e=n(o).withConfig({componentId:"sc-1ubn8hn-0"})(["pointer-events:none;margin-right:",";"],(function(n){return"S"===n.size?"1.2rem":"1.6rem"}));export{e as Prefix};

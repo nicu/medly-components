@@ -1,0 +1,1 @@
+import t from"styled-components";var n=t("div").withConfig({componentId:"sc-1aot8wt-0"})(["width:fit-content;display:flex;justify-content:",";"],(function(t){var n=t.align;return"right"===n?"flex-end":"center"===n?"center":"flex-start"}));export{n as CustomComponentWrapper};

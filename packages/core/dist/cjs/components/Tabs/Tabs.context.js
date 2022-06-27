@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("react"),a=((e=t)&&"object"==typeof e&&"default"in e&&e.default,t.createContext({tabSize:"S",variant:"flat",tabBackground:"WHITE"}));exports.TabsContext=a;

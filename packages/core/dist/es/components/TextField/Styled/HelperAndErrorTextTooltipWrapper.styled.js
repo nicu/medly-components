@@ -1,0 +1,1 @@
+import r from"styled-components";var n=r.div.withConfig({componentId:"sc-1cb9izd-0"})(["margin-top:0.5rem;margin-right:",";margin-left:",";"],(function(r){return!r.isSuffixPresent&&"1rem"}),(function(r){var n=r.displayCharacterCount,t=r.size;return(!n||"S"!==t)&&"1rem"}));export{n as HelperAndErrorTextTooltipWrapper};

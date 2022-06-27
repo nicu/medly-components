@@ -1,0 +1,1 @@
+import o from"../colors/index.js";var e={sizes:{S:{counterSize:"30px",fontVariant:"body2"},M:{counterSize:"60px",fontVariant:"h3"},L:{counterSize:"90px",fontVariant:"h2"}},defaultSize:"S",counterColor:o.white,activeColor:o.professionalNavy,inactiveColor:o.grey[300]};export default e;

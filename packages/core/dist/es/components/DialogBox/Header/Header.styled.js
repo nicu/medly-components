@@ -1,0 +1,1 @@
+import o from"styled-components";var r=o("div").withConfig({componentId:"e1prby-0"})(["background-color:",";color:",";font-weight:500;margin-bottom:2.4rem;"],(function(o){return o.theme.modal.backgroundColor}),(function(o){return o.theme.modal.headerColor}));export{r as Header};

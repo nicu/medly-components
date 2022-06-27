@@ -1,0 +1,1 @@
+var r=function(r){return{getItem:function(e){var t=r.getItem(e);if(!t)return null;try{return JSON.parse(t)}catch(r){return console.warn("Error while parsing “".concat(e,"”:"),r),t}},setItem:function(e,t){return r.setItem(e,JSON.stringify(t))},removeItem:function(e){return r.removeItem(e)},clear:function(){return r.clear()}}};export{r as STORAGE_UTILITIES};

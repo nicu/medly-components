@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),o=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)("tr").withConfig({componentId:"sc-1jfplyb-0"})(["display:grid;grid-template-columns:",";background-color:transparent;"],(function(e){return e.gridTemplateColumns}));exports.HeadRow=o;

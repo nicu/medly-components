@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.capitalize=function(e){return e[0].toUpperCase()+e.substr(1)},exports.equalsIgnoreCase=function(e,r){return e.toLowerCase()===r.toLowerCase()},exports.includesIgnoreCase=function(e,r){return e.toLowerCase().includes(r.toLowerCase())};

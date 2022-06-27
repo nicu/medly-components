@@ -1,0 +1,1 @@
+import{css as t}from"styled-components";var e=function(e){var n=e.fontVariant,i=e.fontWeight,o=e.theme.font,a=o.variants,f=o.weights,r=o.defaults,g=a[n||r.variant],h=g.fontSize,l=g.fontWeight,s=g.letterSpacing,m=g.lineHeight;return t(["font-size:",";font-weight:",";letter-spacing:",";line-height:",";font-family:",";"],h,f[i||l],s,m,r.fontFamily)};export{e as getFontStyle};

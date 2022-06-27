@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),i=((e=t)&&"object"==typeof e&&"default"in e?e.default:e).div.withConfig({componentId:"sc-4vbg19-0"})(["display:flex;align-items:center;"]);exports.InputSuffixStyled=i;

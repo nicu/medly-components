@@ -1,0 +1,1 @@
+import e from"styled-components";import{TextField as t}from"../../TextField/TextField.js";var i=e.div.withConfig({componentId:"sc-1v2oxar-0"})(["display:flex;margin:0.5rem 0;align-items:center;justify-content:space-around;ul{max-height:20rem;overflow:auto;}","{min-width:unset;max-width:9.5rem;& > div{height:3.5rem;padding:0 0 0 1rem;}}"],t.Style);export{i as Wrapper};

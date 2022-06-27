@@ -1,0 +1,20 @@
+import { TableColumnConfig } from '../types';
+export declare const createValues: (columns: TableColumnConfig[], field?: string) => string[];
+export declare const createOptions: (columns: TableColumnConfig[], field?: string) => any;
+export declare const updateConfig: (configs: TableColumnConfig[], field: string) => {
+    hidden: boolean | undefined;
+    title: string;
+    field: string;
+    fraction?: number | undefined;
+    align?: "left" | "center" | "right" | undefined;
+    frozen?: boolean | undefined;
+    freezePosition?: import("../Body/Cell/types").FreezePosition | undefined;
+    sortable?: boolean | undefined;
+    fitContent?: boolean | undefined;
+    children?: TableColumnConfig[] | undefined;
+    wrapText?: boolean | undefined;
+    formatter?: ((data: any, rowData?: import("../types").ObjectType | undefined) => any) | undefined;
+    component?: import("../types").CustomTableCellComponent | undefined;
+    size?: string | undefined;
+}[];
+export declare const updateColumns: (columns: TableColumnConfig[], selectedValues: string[], field?: string) => TableColumnConfig[];

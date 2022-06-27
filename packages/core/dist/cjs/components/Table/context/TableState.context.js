@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("react"),r=((e=t)&&"object"==typeof e&&"default"in e&&e.default,t.createContext([{},function(){return null}]));exports.TableStateContext=r;

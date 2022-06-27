@@ -1,0 +1,42 @@
+export declare const coreDefaultTheme: {
+    avatar: import("./types").AvatarTheme;
+    breadcrumb: import("./types").BreadcrumbTheme;
+    breakpoints: import("./types").BreakpointsTheme;
+    button: import("./types").ButtonTheme;
+    card: import("./types").CardTheme;
+    calendar: import("./types").CalendarTheme;
+    cardTable: import("./types").CardTableTheme;
+    checkbox: import("./types").CheckboxTheme;
+    chip: import("./types").ChipTheme;
+    colors: import("./types").ColorPallet;
+    drawer: import("./types").DrawerTheme;
+    datePicker: import("./types").DatePickerTheme;
+    dateRangePicker: import("./types").DateRangePickerTheme;
+    font: import("./types").FontTheme;
+    input: import("./types").InputTheme;
+    label: import("./types").LabelTheme;
+    link: import("./types").LinkTheme;
+    modal: import("./types").ModalTheme;
+    multiSelect: import("./types").MultiSelectTheme;
+    radio: import("./types").RadioTheme;
+    reactDatepicker: {
+        colors: {
+            accessibility: string;
+            selectedDay: string;
+            selectedDayHover: string;
+            primaryColor: string;
+        };
+    };
+    searchBox: import("./types").SearchBoxTheme;
+    singleSelect: import("./types").SingleSelectTheme;
+    spacing: import("./types").SpacingTheme;
+    stepper: import("./types").StepperTheme;
+    table: import("./types").TableTheme;
+    tabs: import("./types").TabsTheme;
+    textField: import("./types").TextFieldTheme;
+    toast: import("./types").ToastTheme;
+    toggle: import("./types").ToggleTheme;
+    pagination: import("./types").PaginationTheme;
+    dialogBox: import("./types").DialogBoxTheme;
+    helperAndErrorTextTooltip: import("./types").HelperAndErrorTextTooltipTheme;
+};

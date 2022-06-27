@@ -1,0 +1,1 @@
+"use strict";var r=require("../colors/index.js"),o={overlayColor:"rgba(67, 84, 101, 0.65)",shadowColor:"rgba(67, 84, 101, 0.5)",headerColor:r.black,backgroundColor:r.white,scrollbarThumbColor:r.grey[400],borderRadius:"1.2rem"};module.exports=o;

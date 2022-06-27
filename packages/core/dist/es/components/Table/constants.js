@@ -1,0 +1,1 @@
+var o={title:"",field:"row-actions",frozen:!0},i=[{id:"loading1"},{id:"loading2"},{id:"loading3"},{id:"loading4"},{id:"loading5"}],r={up:"ArrowUp",down:"ArrowDown",expandRow:"ArrowRight",collapseRow:"ArrowLeft",rowClick:"Enter"};export{r as defaultKeyBindings,i as loadingBodyData,o as rowActionsColumnConfig};

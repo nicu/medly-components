@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),n=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)("div").withConfig({componentId:"x0gfjw-0"})(["&:focus{outline:none;}padding:10px;height:100%;width:100%;display:",";"],(function(e){return e.isActive?"block":"none"}));exports.TabPanel=n;

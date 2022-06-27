@@ -1,0 +1,1 @@
+import{jsx as o}from"react/jsx-runtime";import{memo as r,useCallback as t}from"react";import{RowHoverActionsWrapper as e}from"./RowHoverActionsCell.styled.js";var i=r((function(r){var i=t((function(o){return o.stopPropagation()}),[]);return o(e,Object.assign({onClick:i},r),void 0)}));i.displayName="RowHoverActionsCell";export{i as RowHoverActionsCell};

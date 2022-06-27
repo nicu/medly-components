@@ -1,0 +1,1 @@
+import n from"styled-components";var o=n.button.withConfig({componentId:"sc-1p9bwhw-0"})(["display:inline-grid;grid-auto-flow:column;grid-column-gap:0.8rem;align-items:center;user-select:none;padding:0;border:unset;background:transparent;cursor:",";"],(function(n){return n.onClick&&"pointer"}));export{o as Container};

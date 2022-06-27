@@ -1,0 +1,1 @@
+var e=function(e,r){return e.toLowerCase()===r.toLowerCase()},r=function(e,r){return e.toLowerCase().includes(r.toLowerCase())},o=function(e){return e[0].toUpperCase()+e.substr(1)};export{o as capitalize,e as equalsIgnoreCase,r as includesIgnoreCase};

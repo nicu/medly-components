@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=require("styled-components"),r=((e=t)&&"object"==typeof e&&"default"in e?e.default:e)(require("../../Text/Text.js").Text).withConfig({componentId:"g9ntzd-0"})(["user-select:none;text-align:center;padding:0.8rem 1rem;margin-bottom:0.8rem;"]);exports.WeekDay=r;

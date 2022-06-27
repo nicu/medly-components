@@ -1,0 +1,1 @@
+import o from"styled-components";var r=o("tr").withConfig({componentId:"sc-1jfplyb-0"})(["display:grid;grid-template-columns:",";background-color:transparent;"],(function(o){return o.gridTemplateColumns}));export{r as HeadRow};

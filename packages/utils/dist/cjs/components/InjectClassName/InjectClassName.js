@@ -1,0 +1,1 @@
+"use strict";var e=require("react/jsx-runtime"),r=require("react");module.exports=function(n){var t=n.className,a=n.children;return e.jsx(e.Fragment,{children:r.Children.map(a,(function(e){return r.cloneElement(e,{className:t})}))},void 0)};

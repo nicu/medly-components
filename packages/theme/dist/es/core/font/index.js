@@ -1,0 +1,1 @@
+import a from"../colors/index.js";import r from"./faces.js";import e from"./variants.js";import s from"./weights.js";var i={variants:e,weights:s,faces:r,defaults:{color:a.black,variant:"body2",fontFamily:"Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif"}};export default i;

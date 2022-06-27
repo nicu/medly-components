@@ -1,0 +1,1 @@
+var E,A;!function(E){E.WEEK="WEEK",E.MONTH="MONTH",E.YEAR="YEAR",E.CUSTOM="CUSTOM",E.QUARTER="QUARTER"}(E||(E={})),function(E){E.CALENDAR="CALENDAR",E.CUSTOM_RANGE_OPTIONS="CUSTOM_RANGE_OPTIONS"}(A||(A={}));export{E as DateRangeSelectionEnum,A as PopoverTypes};

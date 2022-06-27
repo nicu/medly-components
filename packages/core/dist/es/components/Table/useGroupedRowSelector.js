@@ -1,0 +1,1 @@
+import{useCallback as e}from"react";import t from"@babel/runtime/helpers/toConsumableArray";export default function(r){var n=r.selectedIds,o=r.setSelectedIds;return{selectedIds:n,toggleIds:e((function(e){return o&&o((function(r){return e.reduce((function(e,r){return-1===e.indexOf(r)?[].concat(t(e),[r]):e.filter((function(e){return e!==r}))}),t(r))}))}),[])}}

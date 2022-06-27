@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,o=require("styled-components"),t=((e=o)&&"object"==typeof e&&"default"in e?e.default:e)("div").withConfig({componentId:"sc-1ji1z6r-0"})(["flex:1;box-sizing:border-box;overflow:auto;padding:0 2.4rem;"]);exports.ContentStyled=t;
